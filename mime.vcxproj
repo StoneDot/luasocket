@@ -90,6 +90,7 @@
     <IntDir>$(Configuration)\mime\</IntDir>
     <LinkIncremental>true</LinkIncremental>
     <TargetName>core</TargetName>
+    <OutDir>$(SolutionDir)$(Configuration)\mime\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
@@ -100,6 +101,7 @@
     <IntDir>$(Configuration)\mime\</IntDir>
     <LinkIncremental>false</LinkIncremental>
     <TargetName>core</TargetName>
+    <OutDir>$(SolutionDir)$(Configuration)\mime\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>

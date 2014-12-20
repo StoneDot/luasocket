@@ -180,6 +180,7 @@
     <IntDir>$(Configuration)\socket\</IntDir>
     <LinkIncremental>true</LinkIncremental>
     <TargetName>core</TargetName>
+    <OutDir>$(SolutionDir)$(Configuration)\socket\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
@@ -190,6 +191,7 @@
     <IntDir>$(Configuration)\socket\</IntDir>
     <LinkIncremental>false</LinkIncremental>
     <TargetName>core</TargetName>
+    <OutDir>$(SolutionDir)$(Configuration)\socket\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
